@@ -1,0 +1,261 @@
+.ipad__div{
+    background: whitesmoke;
+    width: 100%;
+    height: auto;
+}
+
+
+.ipad__banner{
+    width: 100%;
+    height: 750px;
+    background: url("https://www.apple.com/v/ipad-10.9/b/images/overview/hero/hero__ecv967jz1y82_large.jpg") no-repeat center/contain;
+    text-align: center;
+}
+.ipad__banner1{
+    width: 100%;
+    height: 750px;
+    font-size: 22px;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+    background: url("https://www.apple.com/v/ipad/home/cd/images/overview/ipados16__9t47xpd66wiq_medium_2x.jpg") no-repeat center/contain;
+}
+.ipad__btn{
+    width: 200px;
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+    color: dodgerblue;
+    font-size: 20px;
+    background: none;
+    border: none;
+}
+.ipad__btn0{
+    width: 300px;
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+    color: dodgerblue;
+    font-size: 20px;
+    background: none;
+    border: none;
+}
+.ipad__btn1{
+    width: 250px;
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+    color: dodgerblue;
+    font-size: 20px;
+    background: none;
+    border: none;
+}
+.ipad__btn:hover{
+  text-decoration: underline;
+}
+.ipad__btn1:hover{
+  text-decoration: underline;
+}
+
+.ipad__banner2{
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+    background: white;
+}
+.ipad__which{
+    margin: 50px 0px 0px 0px;
+}
+
+.ipad__good{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+}
+.ipad__card{
+    width: 230px;
+    height: 750px;
+    padding: 10px 15px;
+
+}
+.ipad__img{
+    width: 200px;
+    height: 220px;
+}
+.ipad__new{
+    margin: 40px 0px 0px 0px;
+    color: rgb(247, 153, 31);
+}
+.ipad__pro{
+    margin: 10px 0px 0px 0px;
+}
+.ipad__new1{
+    margin: 30px 0px 0px 0px;
+}
+.ipad__pro1{
+    margin: 10px 0px 0px 0px;
+}
+.ipad__pro2{
+    margin: 20px 0px 0px 0px;
+    width: 50px;
+    height: 30px;
+    background: dodgerblue;
+    border: none;
+    border-radius: 18px;
+    color: white;
+    font-size: 14px
+}
+.ipad__pro3{
+    margin: 10px 0px 10px 0px;
+    width: 100px;
+    height: 30px;
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: dodgerblue;
+}
+.ipad__pro3:hover{
+    text-decoration: underline;
+}
+.card__vivo{
+    margin: 10px 0px 10px 0px;
+}
+
+.ipad__by{
+    padding: 10px 0px 0px 0px;
+}
+.ipad__mountain{
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    text-align: center;
+  font-size: 24px;
+  background: white;
+}
+.ipad__carry{
+    width: 75%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ipad__map{
+    width: 650px;
+    height: 650px;
+    margin: 20px;
+    text-align: center;
+    font-size: 22px;
+    padding: 40px 0px 0px 0px;
+    background: white;
+}
+
+.ipad__photo{
+    width: 100%;
+     margin: 20px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1550px){
+   
+    .ipad__mountain img{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:1200px) {
+    
+    .ipad__banner{
+        width: 100%;
+        height: 500px;
+        
+    }
+    .ipad__banner1{
+        width: 100%;
+        height: 500px;
+        
+    }
+   .ipad__map{
+    height: 650px;
+   }
+    
+
+}
+
+@media screen and (max-width:840px){
+    .ipad__map{
+        height: 560px;
+       }
+}
+@media screen and (max-width:750px){
+    .ipad__mountain {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .ipad__banner{
+        width: 100%;
+        height: 400px;
+    }
+    .ipad__banner1{
+        width: 100%;
+        height: 400px;
+        font-size: 16px;
+
+    }
+    .ipad__btn{
+        font-size: 15px;
+    }
+    .ipad__mountain {
+        font-size: 15px;
+    }
+    .ipad__map{
+        height: 500px;
+       }
+
+}
+
+@media screen and (max-width:500px){
+
+    .ipad__map{
+        height: 450px;
+       }
+
+}
+
+
+
+
